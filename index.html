@@ -66,10 +66,15 @@
             border-radius: 5px;
             cursor: pointer;
             transition: transform 0.3s;
+            margin: 10px;
         }
         
         button:hover {
             transform: scale(1.05);
+        }
+        
+        .button-group {
+            margin-top: 30px;
         }
         
         @keyframes fadeIn {
@@ -95,7 +100,10 @@
         
         <p>This is a beautiful welcome page created with modern HTML and CSS styling.</p>
         
-        <button onclick="alert('Thanks for visiting Meenakshi\'s page!')">Click Me!</button>
+        <div class="button-group">
+            <button onclick="alert('Thanks for visiting Meenakshi\'s page!')">Welcome Alert</button>
+            <a href="tourist-india.html" style="text-decoration: none;"><button>Explore India Tourism</button></a>
+        </div>
     </div>
 </body>
 </html>
